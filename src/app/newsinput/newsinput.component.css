@@ -1,0 +1,48 @@
+input[type=text], select {
+    width: 50%;
+    padding: 52px 50px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    box-sizing: border-box;
+    background-color: yellow;
+  }
+
+  input[type=url], select {
+    width: 50%;
+    padding: 29px 50px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    box-sizing: border-box;
+    background-color: yellow;
+  }
+
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+
+  
+input[type=submit] {
+    width: 10%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 20px 0;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+
+  input[type=file] {
+    width: 20%;
+    background-color: #000000;
+    color: white;
+    padding: 14px 20px;
+    margin: 20px 0;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+  }
