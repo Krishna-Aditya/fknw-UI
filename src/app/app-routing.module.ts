@@ -8,7 +8,8 @@ import { NewsinputComponent } from './newsinput/newsinput.component';
 const routes: Routes = [
   {path:"Register", component:RegComponent},
   {path:"Login", component:LoginComponent},
-  {path:"Analysis", component:NewsinputComponent}
+  {path:"Analysis", component:NewsinputComponent},
+  
 ];
 
 @NgModule({
