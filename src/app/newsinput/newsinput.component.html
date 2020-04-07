@@ -1,20 +1,14 @@
-
-<div class="navbar">
-  <p><b> <span style='font-size:15px;'>&#10765;</span> Fake News Detector</b></p>
-</div>
-<div>
-  <form action="/action_page.php">
-    
-    <input type="text" id="text" name="news" placeholder="Some text..">
-
-    <input type="url" id="url text" name="link" placeholder="Some Url..">
-
-    <div class="fileUpload btn btn-primary">
-      <span>Upload</span>
-      <input type="file" class="upload" />
+<div class="container-fluid mt-5">
+  <div class="row">
+    <div class="col-sm-6">
+      <div class="card bg-orange">
+        <div class="card-body">
+          <i class="fa fa-cloud-upload" aria-hidden="true"></i>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6">
+      <textarea class="form-control bg-orange" rows="8" name="news">Enter text here...</textarea>
+    </div>
   </div>
-  
-   <input type="submit" value="Submit">
-
-  </form>
 </div>

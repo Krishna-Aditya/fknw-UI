@@ -73,6 +73,24 @@ input[type=submit] {
     text-align: initial;
   }
 
+  body{
+    background: black !important;
+    height:100vh;
+}
+
+.fa-cloud-upload{
+  font-size: 70px;
+  padding: 40px;
+  text-align: center;
+  width: 100%;
+  margin: auto;
+}
+
+.bg-orange{
+  background-color: #FF9800;
+  border: 2px solid white;
+}
+
   
       
   
