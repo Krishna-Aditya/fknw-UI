@@ -4,15 +4,19 @@
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.7);
     
 }
-
+body{
+    margin:0px;
+}
 .navbar-light .navbar-brand {
     color:black;
     font-weight: 100;
+    font-size:20px;
     letter-spacing: 0.3px;
     text-transform: uppercase;
     padding-left: 10px;
-    position: relative;
+    position: absolute;
     top:0px;
+
 }
 
 a{
@@ -26,4 +30,10 @@ a{
 
 .icon-style{
     font-size: 24px;
+}
+
+.nav-link{
+    position: absolute;
+    right: 50px;
+    top:15px;
 }
