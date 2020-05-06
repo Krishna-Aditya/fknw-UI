@@ -1,12 +1,13 @@
-<form>
-  <div class="form-container">
+
+  <div class="container">
+    <form [formGroup]='myform' (ngSubmit)="SubmitDetails()">
       <ul class="list">
         <li><h2>Member Login</h2></li>
-        <li><input type="text" name="username" placeholder="Username" autofocus /></li>
-        <li><input type="password" name="pwd" placeholder="**********" /></li>
-        <li><input type="button" name="Submit" routerLink="/Analysis" value="LogIn" routerlink='input' /></li>
-        <li><input type="button" name="Submit" routerLink="/Register" value="Register" routerlink="register" /></li>
-        <li>Forgot password ?</li>
+        <li><input type="text" id="Email"name="Email" placeholder="Enter Email" formControlName="Email" /></li>
+        <li><input type="password" id="Password" name="password" placeholder="**********" formControlName="Password"/></li>
+        <li><input type="submit" name="Login" routerLink="/analysis" value="LogIn" routerlink='input' /></li>
+        <li><input type="button" name="Register" routerLink="/Register" value="Register" routerlink="register" /></li>
       </ul>
-    </div>
     </form>
+  </div>
+  

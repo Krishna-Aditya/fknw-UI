@@ -8,7 +8,7 @@ import { RegComponent } from './reg/reg.component';
 const routes: Routes = [
   {path:'', component:LoginComponent},
   {path:'Login', component:NewsinputComponent},
-  {path:'Register', component:RegComponent},
+  {path:'Register', component:LoginComponent},
 ]
   
 
